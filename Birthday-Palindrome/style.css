@@ -1,0 +1,61 @@
+.container {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bolder;
+}
+label {
+  font-size: large;
+  margin: 0.5rem;
+}
+.dobInput {
+  margin: 0.5rem;
+  width: 16%;
+  padding: 0.5rem;
+  border: 2px solid purple;
+  border-radius: 12px;
+}
+.resultValue {
+}
+.btn {
+  width: 7%;
+  height: 5%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid purple;
+  border-radius: 12px;
+  background-color: purple;
+  cursor: pointer;
+}
+
+footer{
+
+  bottom: 0;
+  text-align: center;
+
+}
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
+}
+footer ul li a:hover{
+  color: aqua;
+}
